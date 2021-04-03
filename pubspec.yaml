@@ -1,0 +1,806 @@
+name: hair_cut_styleapp
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_statusbarcolor_ns: ^0.3.0-nullsafety
+  toast:
+  save_in_gallery: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/image/drawer_image.png
+
+
+
+    - assets/newcut/new_1.jpg
+    - assets/newcut/new_2.jpg
+    - assets/newcut/new_3.jpg
+    - assets/newcut/new_4.jpg
+    - assets/newcut/new_5.jpg
+    - assets/newcut/new_6.jpg
+    - assets/newcut/new_7.jpg
+    - assets/newcut/new_8.jpg
+    - assets/newcut/new_9.jpg
+    - assets/newcut/new_10.jpg
+    - assets/newcut/new_11.jpg
+    - assets/newcut/new_12.jpg
+    - assets/newcut/new_13.jpg
+    - assets/newcut/new_14.jpg
+    - assets/newcut/new_15.jpg
+    - assets/newcut/new_16.jpg
+    - assets/newcut/new_17.jpg
+    - assets/newcut/new_18.jpg
+    - assets/newcut/new_19.jpg
+    - assets/newcut/new_20.jpg
+    - assets/newcut/new_21.jpg
+    - assets/newcut/new_22.jpg
+    - assets/newcut/new_23.jpg
+    - assets/newcut/new_24.jpg
+    - assets/newcut/new_25.jpg
+    - assets/newcut/new_26.jpg
+    - assets/newcut/new_27.jpg
+    - assets/newcut/new_28.jpg
+    - assets/newcut/new_29.jpg
+    - assets/newcut/new_30.jpg
+    - assets/newcut/new_31.jpg
+
+
+    - assets/popularcut/popular1.jpg
+    - assets/popularcut/popular2.jpg
+    - assets/popularcut/popular3.jpg
+    - assets/popularcut/popular4.jpg
+    - assets/popularcut/popular5.jpg
+    - assets/popularcut/popular6.jpg
+    - assets/popularcut/popular7.jpg
+    - assets/popularcut/popular8.jpg
+    - assets/popularcut/popular9.jpg
+    - assets/popularcut/popular10.jpg
+    - assets/popularcut/popular11.jpg
+    - assets/popularcut/popular12.jpg
+    - assets/popularcut/popular13.jpg
+    - assets/popularcut/popular14.jpg
+    - assets/popularcut/popular15.jpg
+    - assets/popularcut/popular16.jpg
+    - assets/popularcut/popular17.jpg
+    - assets/popularcut/popular18.jpg
+    - assets/popularcut/popular19.jpg
+    - assets/popularcut/popular20.jpg
+    - assets/popularcut/popular21.jpg
+    - assets/popularcut/popular22.jpg
+    - assets/popularcut/popular23.jpg
+    - assets/popularcut/popular24.jpg
+    - assets/popularcut/popular25.jpg
+    - assets/popularcut/popular26.jpg
+    - assets/popularcut/popular27.jpg
+    - assets/popularcut/popular28.jpg
+    - assets/popularcut/popular29.jpg
+    - assets/popularcut/popular30.jpg
+    - assets/popularcut/popular31.jpg
+    - assets/popularcut/popular32.jpg
+    - assets/popularcut/popular33.jpg
+    - assets/popularcut/popular34.jpg
+    - assets/popularcut/popular35.jpg
+    - assets/popularcut/popular36.jpg
+    - assets/popularcut/popular37.jpg
+    - assets/popularcut/popular38.jpg
+    - assets/popularcut/popular39.jpg
+    - assets/popularcut/popular40.jpg
+    - assets/popularcut/popular41.jpg
+    - assets/popularcut/popular42.jpg
+    - assets/popularcut/popular43.jpg
+    - assets/popularcut/popular44.jpg
+    - assets/popularcut/popular45.jpg
+    - assets/popularcut/popular46.jpg
+    - assets/popularcut/popular47.jpg
+    - assets/popularcut/popular48.jpg
+    - assets/popularcut/popular49.jpg
+    - assets/popularcut/popular50.jpg
+    - assets/popularcut/popular51.jpg
+    - assets/popularcut/popular52.jpg
+    - assets/popularcut/popular53.jpg
+    - assets/popularcut/popular54.jpg
+    - assets/popularcut/popular55.jpg
+    - assets/popularcut/popular56.jpg
+    - assets/popularcut/popular57.jpg
+    - assets/popularcut/popular58.jpg
+    - assets/popularcut/popular59.jpg
+    - assets/popularcut/popular60.jpg
+    - assets/popularcut/popular61.jpg
+    - assets/popularcut/popular62.jpg
+    - assets/popularcut/popular63.jpg
+    - assets/popularcut/popular64.jpg
+    - assets/popularcut/popular65.jpg
+    - assets/popularcut/popular66.jpg
+    - assets/popularcut/popular67.jpg
+    - assets/popularcut/popular68.jpg
+    - assets/popularcut/popular69.jpg
+    - assets/popularcut/popular70.jpg
+    - assets/popularcut/popular71.jpg
+    - assets/popularcut/popular72.jpg
+    - assets/popularcut/popular73.jpg
+    - assets/popularcut/popular74.jpg
+    - assets/popularcut/popular75.jpg
+    - assets/popularcut/popular76.jpg
+    - assets/popularcut/popular77.jpg
+    - assets/popularcut/popular78.jpg
+    - assets/popularcut/popular79.jpg
+    - assets/popularcut/popular80.jpg
+    - assets/popularcut/popular81.jpg
+    - assets/popularcut/popular82.jpg
+    - assets/popularcut/popular83.jpg
+    - assets/popularcut/popular84.jpg
+    - assets/popularcut/popular85.jpg
+    - assets/popularcut/popular86.jpg
+    - assets/popularcut/popular87.jpg
+
+
+
+
+
+
+
+    - assets/topcut/top_1.jpg
+    - assets/topcut/top_2.jpg
+    - assets/topcut/top_3.jpg
+    - assets/topcut/top_4.jpg
+    - assets/topcut/top_5.jpg
+    - assets/topcut/top_6.jpg
+    - assets/topcut/top_7.jpg
+    - assets/topcut/top_8.jpg
+    - assets/topcut/top_9.jpg
+    - assets/topcut/top_10.jpg
+    - assets/topcut/top_11.jpg
+    - assets/topcut/top_12.jpg
+    - assets/topcut/top_13.jpg
+    - assets/topcut/top_14.jpg
+    - assets/topcut/top_15.jpg
+    - assets/topcut/top_16.jpg
+    - assets/topcut/top_17.jpg
+    - assets/topcut/top_18.jpeg
+    - assets/topcut/top_19.jpg
+    - assets/topcut/top_20.jpg
+    - assets/topcut/top_21.jpg
+    - assets/topcut/top_22.jpg
+    - assets/topcut/top_23.jpg
+    - assets/topcut/top_24.jpg
+    - assets/topcut/top_25.jpg
+    - assets/topcut/top_26.jpg
+    - assets/topcut/top_27.jpg
+    - assets/topcut/top_28.jpg
+    - assets/topcut/top_29.jpg
+    - assets/topcut/top_30.jpg
+    - assets/topcut/top_31.jpg
+    - assets/topcut/top_32.jpg
+    - assets/topcut/top_33.jpg
+    - assets/topcut/top_34.jpg
+    - assets/topcut/top_35.jpg
+    - assets/topcut/top_36.jpg
+    - assets/topcut/top_37.jpg
+    - assets/topcut/top_38.jpg
+    - assets/topcut/top_39.jpg
+    - assets/topcut/top_40.jpg
+    - assets/topcut/top_41.jpg
+    - assets/topcut/top_42.jpg
+    - assets/topcut/top_43.jpg
+    - assets/topcut/top_44.jpg
+    - assets/topcut/top_45.jpg
+    - assets/topcut/top_46.jpg
+    - assets/topcut/top_47.jpg
+    - assets/topcut/top_48.jpg
+    - assets/topcut/top_49.jpg
+    - assets/topcut/top_50.jpg
+    - assets/topcut/top_51.jpg
+    - assets/topcut/top_52.jpg
+    - assets/topcut/top_53.jpg
+    - assets/topcut/top_54.jpg
+    - assets/topcut/top_55.jpg
+    - assets/topcut/top_56.jpg
+    - assets/topcut/top_57.jpg
+    - assets/topcut/top_58.jpg
+    - assets/topcut/top_59.jpg
+    - assets/topcut/top_60.jpg
+    - assets/topcut/top_61.jpg
+    - assets/topcut/top_62.jpg
+    - assets/topcut/top_63.jpg
+    - assets/topcut/top_64.jpg
+    - assets/topcut/top_65.jpg
+    - assets/topcut/top_66.jpg
+    - assets/topcut/top_67.jpg
+    - assets/topcut/top_68.jpg
+    - assets/topcut/top_69.jpg
+    - assets/topcut/top_70.jpg
+    - assets/topcut/top_71.jpg
+    - assets/topcut/top_72.jpg
+    - assets/topcut/top_73.jpg
+    - assets/topcut/top_74.jpg
+    - assets/topcut/top_75.jpg
+    - assets/topcut/top_76.jpg
+    - assets/topcut/top_77.jpg
+    - assets/topcut/top_78.jpg
+    - assets/topcut/top_79.jpg
+    - assets/topcut/top_80.jpg
+    - assets/topcut/top_81.jpg
+    - assets/topcut/top_82.jpg
+    - assets/topcut/top_83.jpg
+    - assets/topcut/top_84.jpg
+    - assets/topcut/top_85.jpg
+    - assets/topcut/top_86.jpg
+    - assets/topcut/top_87.jpg
+    - assets/topcut/top_88.jpg
+    - assets/topcut/top_89.jpg
+    - assets/topcut/top_90.jpg
+    - assets/topcut/top_91.jpg
+    - assets/topcut/top_92.jpg
+    - assets/topcut/top_93.jpg
+    - assets/topcut/top_94.jpg
+    - assets/topcut/top_95.jpg
+    - assets/topcut/top_96.jpg
+    - assets/topcut/top_97.jpg
+    - assets/topcut/top_98.jpg
+    - assets/topcut/top_99.jpg
+    - assets/topcut/top_100.jpg
+    - assets/topcut/top_101.jpg
+
+
+
+
+
+    - assets/hotcut/hot_1.jpg
+    - assets/hotcut/hot_2.jpg
+    - assets/hotcut/hot_3.jpg
+    - assets/hotcut/hot_4.jpg
+    - assets/hotcut/hot_5.jpg
+    - assets/hotcut/hot_6.jpg
+    - assets/hotcut/hot_7.jpg
+    - assets/hotcut/hot_8.jpg
+    - assets/hotcut/hot_9.jpg
+    - assets/hotcut/hot_10.jpg
+    - assets/hotcut/hot_11.jpg
+    - assets/hotcut/hot_12.jpg
+    - assets/hotcut/hot_13.jpg
+    - assets/hotcut/hot_14.jpg
+    - assets/hotcut/hot_15.jpg
+    - assets/hotcut/hot_16.jpg
+    - assets/hotcut/hot_17.jpg
+    - assets/hotcut/hot_18.jpg
+    - assets/hotcut/hot_19.jpg
+    - assets/hotcut/hot_20.jpg
+    - assets/hotcut/hot_21.jpg
+    - assets/hotcut/hot_22.jpg
+    - assets/hotcut/hot_23.jpg
+    - assets/hotcut/hot_24.jpg
+    - assets/hotcut/hot_25.jpg
+    - assets/hotcut/hot_26.jpg
+    - assets/hotcut/hot_27.jpg
+    - assets/hotcut/hot_28.jpg
+    - assets/hotcut/hot_29.jpg
+    - assets/hotcut/hot_30.jpg
+    - assets/hotcut/hot_31.jpg
+    - assets/hotcut/hot_32.jpg
+    - assets/hotcut/hot_33.jpg
+    - assets/hotcut/hot_34.jpg
+    - assets/hotcut/hot_35.jpg
+    - assets/hotcut/hot_36.jpg
+    - assets/hotcut/hot_37.jpg
+    - assets/hotcut/hot_38.jpg
+    - assets/hotcut/hot_39.jpg
+    - assets/hotcut/hot_40.jpg
+    - assets/hotcut/hot_41.jpg
+    - assets/hotcut/hot_42.jpg
+    - assets/hotcut/hot_43.jpg
+    - assets/hotcut/hot_44.jpg
+    - assets/hotcut/hot_45.jpg
+    - assets/hotcut/hot_46.jpg
+    - assets/hotcut/hot_47.jpg
+    - assets/hotcut/hot_48.jpg
+    - assets/hotcut/hot_49.jpg
+    - assets/hotcut/hot_50.jpg
+    - assets/hotcut/hot_51.jpg
+    - assets/hotcut/hot_52.jpg
+    - assets/hotcut/hot_53.jpg
+    - assets/hotcut/hot_54.jpg
+    - assets/hotcut/hot_55.jpg
+    - assets/hotcut/hot_56.jpg
+    - assets/hotcut/hot_57.jpg
+    - assets/hotcut/hot_58.jpg
+    - assets/hotcut/hot_59.jpg
+    - assets/hotcut/hot_60.jpg
+    - assets/hotcut/hot_61.jpg
+    - assets/hotcut/hot_62.jpg
+    - assets/hotcut/hot_63.jpg
+    - assets/hotcut/hot_64.jpg
+    - assets/hotcut/hot_65.jpg
+    - assets/hotcut/hot_66.jpg
+    - assets/hotcut/hot_67.jpg
+    - assets/hotcut/hot_68.jpg
+    - assets/hotcut/hot_69.jpg
+    - assets/hotcut/hot_70.jpg
+    - assets/hotcut/hot_71.jpg
+    - assets/hotcut/hot_72.jpg
+    - assets/hotcut/hot_73.jpg
+    - assets/hotcut/hot_74.jpg
+    - assets/hotcut/hot_75.jpg
+    - assets/hotcut/hot_76.jpg
+    - assets/hotcut/hot_77.jpg
+    - assets/hotcut/hot_78.jpg
+    - assets/hotcut/hot_79.jpg
+    - assets/hotcut/hot_80.jpg
+    - assets/hotcut/hot_81.jpg
+    - assets/hotcut/hot_82.jpg
+    - assets/hotcut/hot_83.jpg
+    - assets/hotcut/hot_84.jpg
+    - assets/hotcut/hot_85.jpg
+    - assets/hotcut/hot_86.jpg
+    - assets/hotcut/hot_87.jpg
+    - assets/hotcut/hot_88.jpg
+
+
+
+
+    - assets/man/a1.webp
+    - assets/man/a2.webp
+    - assets/man/a3.webp
+    - assets/man/a4.webp
+    - assets/man/a5.webp
+    - assets/man/a6.webp
+    - assets/man/a7.webp
+    - assets/man/a8.webp
+    - assets/man/a9.webp
+    - assets/man/a10.webp
+    - assets/man/a11.webp
+    - assets/man/a12.webp
+    - assets/man/a13.webp
+    - assets/man/a14.webp
+    - assets/man/a15.webp
+    - assets/man/a16.webp
+    - assets/man/a17.webp
+    - assets/man/a18.webp
+    - assets/man/a19.webp
+    - assets/man/a20.webp
+    - assets/man/a21.webp
+    - assets/man/a22.webp
+    - assets/man/a23.webp
+    - assets/man/a24.webp
+    - assets/man/a25.webp
+    - assets/man/a26.webp
+    - assets/man/a27.webp
+    - assets/man/a28.webp
+    - assets/man/a29.webp
+    - assets/man/a30.webp
+    - assets/man/a31.webp
+    - assets/man/a32.webp
+    - assets/man/a33.webp
+    - assets/man/a34.webp
+    - assets/man/a35.webp
+    - assets/man/a36.webp
+    - assets/man/a37.webp
+    - assets/man/a38.webp
+    - assets/man/a39.webp
+    - assets/man/a40.webp
+    - assets/man/a41.webp
+    - assets/man/a42.webp
+    - assets/man/a43.webp
+    - assets/man/a44.webp
+    - assets/man/a45.webp
+    - assets/man/a46.webp
+    - assets/man/a47.webp
+    - assets/man/a48.webp
+    - assets/man/a49.webp
+    - assets/man/a50.webp
+    - assets/man/a51.webp
+    - assets/man/a52.webp
+    - assets/man/a53.webp
+    - assets/man/a54.webp
+    - assets/man/a55.webp
+    - assets/man/a56.webp
+    - assets/man/a57.webp
+    - assets/man/a58.webp
+    - assets/man/a59.webp
+    - assets/man/a60.webp
+    - assets/man/a61.webp
+    - assets/man/a62.webp
+    - assets/man/a63.webp
+    - assets/man/a64.webp
+    - assets/man/a65.webp
+    - assets/man/a66.webp
+    - assets/man/a67.webp
+    - assets/man/a68.webp
+    - assets/man/a69.webp
+    - assets/man/a70.webp
+    - assets/man/a71.webp
+    - assets/man/a72.webp
+    - assets/man/a73.webp
+    - assets/man/a74.webp
+    - assets/man/a75.webp
+    - assets/man/a76.webp
+    - assets/man/a77.webp
+    - assets/man/a78.webp
+    - assets/man/a79.webp
+    - assets/man/a80.webp
+    - assets/man/a81.webp
+    - assets/man/a82.webp
+    - assets/man/a83.webp
+    - assets/man/a84.webp
+    - assets/man/a85.webp
+    - assets/man/a86.webp
+    - assets/man/a87.webp
+    - assets/man/a88.webp
+    - assets/man/a89.webp
+    - assets/man/a90.webp
+    - assets/man/a91.webp
+    - assets/man/a92.webp
+    - assets/man/a93.webp
+    - assets/man/a94.webp
+    - assets/man/a95.webp
+    - assets/man/a96.webp
+    - assets/man/a97.webp
+    - assets/man/a98.webp
+    - assets/man/a99.webp
+    - assets/man/a100.webp
+    - assets/man/a101.webp
+    - assets/man/a102.webp
+    - assets/man/a103.webp
+    - assets/man/a104.webp
+    - assets/man/a105.webp
+    - assets/man/a106.webp
+    - assets/man/a107.webp
+    - assets/man/a108.webp
+    - assets/man/a109.webp
+    - assets/man/a110.webp
+    - assets/man/a111.webp
+    - assets/man/a112.webp
+    - assets/man/a113.webp
+    - assets/man/a114.webp
+    - assets/man/a115.webp
+    - assets/man/a116.webp
+    - assets/man/a117.webp
+    - assets/man/a118.webp
+    - assets/man/a119.webp
+    - assets/man/a120.webp
+    - assets/man/a121.webp
+    - assets/man/a122.webp
+    - assets/man/a123.webp
+    - assets/man/a124.webp
+    - assets/man/a125.webp
+    - assets/man/a126.webp
+    - assets/man/a127.webp
+    - assets/man/a128.webp
+    - assets/man/a129.webp
+    - assets/man/a130.webp
+    - assets/man/a131.webp
+    - assets/man/a132.webp
+    - assets/man/a133.webp
+    - assets/man/a134.webp
+    - assets/man/a135.webp
+    - assets/man/a136.webp
+    - assets/man/a137.webp
+    - assets/man/a138.webp
+    - assets/man/a139.webp
+    - assets/man/a140.webp
+    - assets/man/a141.webp
+    - assets/man/a142.webp
+    - assets/man/a143.webp
+    - assets/man/a144.webp
+    - assets/man/a145.webp
+    - assets/man/a146.webp
+    - assets/man/a147.webp
+    - assets/man/a148.webp
+    - assets/man/a149.webp
+    - assets/man/a150.webp
+    - assets/man/a151.webp
+    - assets/man/a152.webp
+    - assets/man/a153.webp
+    - assets/man/a154.webp
+    - assets/man/a155.webp
+    - assets/man/a156.webp
+    - assets/man/a157.webp
+    - assets/man/a158.webp
+    - assets/man/a159.webp
+    - assets/man/a160.webp
+    - assets/man/a161.webp
+    - assets/man/a162.webp
+    - assets/man/a163.webp
+    - assets/man/a164.webp
+    - assets/man/a165.webp
+    - assets/man/a166.webp
+    - assets/man/a167.webp
+    - assets/man/a168.webp
+    - assets/man/a169.webp
+    - assets/man/a170.webp
+    - assets/man/a171.webp
+    - assets/man/a172.webp
+    - assets/man/a173.webp
+    - assets/man/a174.webp
+    - assets/man/a175.webp
+    - assets/man/a176.webp
+    - assets/man/a177.webp
+    - assets/man/a178.webp
+    - assets/man/a179.webp
+    - assets/man/a180.webp
+    - assets/man/a181.webp
+    - assets/man/a182.webp
+    - assets/man/a183.webp
+    - assets/man/a184.webp
+    - assets/man/a185.webp
+    - assets/man/a186.webp
+    - assets/man/a187.webp
+    - assets/man/a188.webp
+    - assets/man/a189.webp
+    - assets/man/a190.webp
+    - assets/man/a191.webp
+    - assets/man/a192.webp
+    - assets/man/a193.webp
+    - assets/man/a194.webp
+    - assets/man/a195.webp
+    - assets/man/a196.webp
+    - assets/man/a197.webp
+    - assets/man/a198.webp
+    - assets/man/a199.webp
+    - assets/man/a200.webp
+    - assets/man/a201.webp
+    - assets/man/a202.webp
+    - assets/man/a203.webp
+    - assets/man/a204.jpg
+    - assets/man/a205.webp
+    - assets/man/a206.webp
+    - assets/man/a207.webp
+    - assets/man/a208.webp
+    - assets/man/a209.webp
+    - assets/man/a210.webp
+    - assets/man/a211.webp
+    - assets/man/a212.webp
+    - assets/man/a213.webp
+    - assets/man/a214.webp
+    - assets/man/a215.webp
+    - assets/man/a216.webp
+    - assets/man/a217.webp
+    - assets/man/a218.webp
+    - assets/man/a219.webp
+    - assets/man/a220.webp
+    - assets/man/a221.webp
+    - assets/man/a222.webp
+    - assets/man/a223.webp
+    - assets/man/a224.webp
+    - assets/man/a225.webp
+    - assets/man/a226.webp
+    - assets/man/a227.webp
+    - assets/man/a228.webp
+    - assets/man/a229.webp
+    - assets/man/a230.webp
+    - assets/man/a231.webp
+    - assets/man/a232.webp
+    - assets/man/a233.webp
+    - assets/man/a234.webp
+    - assets/man/a235.webp
+    - assets/man/a236.webp
+    - assets/man/a237.webp
+    - assets/man/a238.webp
+    - assets/man/a239.webp
+    - assets/man/a240.webp
+    - assets/man/a241.webp
+    - assets/man/a242.webp
+    - assets/man/a243.webp
+    - assets/man/a244.webp
+    - assets/man/a245.webp
+    - assets/man/a246.webp
+    - assets/man/a247.webp
+    - assets/man/a248.webp
+    - assets/man/a249.webp
+    - assets/man/a250.webp
+    - assets/man/a251.webp
+    - assets/man/a252.webp
+    - assets/man/a253.webp
+    - assets/man/a254.webp
+    - assets/man/a255.webp
+    - assets/man/a256.webp
+    - assets/man/a257.webp
+    - assets/man/a258.webp
+    - assets/man/a259.webp
+    - assets/man/a260.webp
+    - assets/man/a261.webp
+    - assets/man/a262.webp
+    - assets/man/a263.webp
+    - assets/man/a264.jpg
+    - assets/man/a265.webp
+    - assets/man/a266.webp
+    - assets/man/a267.webp
+    - assets/man/a268.webp
+    - assets/man/a269.webp
+    - assets/man/a270.webp
+    - assets/man/a271.webp
+    - assets/man/a272.webp
+    - assets/man/a273.webp
+    - assets/man/a274.webp
+    - assets/man/a275.webp
+    - assets/man/a276.webp
+    - assets/man/a277.webp
+    - assets/man/a278.webp
+    - assets/man/a279.webp
+    - assets/man/a280.webp
+    - assets/man/a281.webp
+    - assets/man/a282.webp
+    - assets/man/a283.webp
+    - assets/man/a284.webp
+    - assets/man/a285.webp
+    - assets/man/a286.webp
+    - assets/man/a287.webp
+    - assets/man/a288.webp
+    - assets/man/a289.webp
+    - assets/man/a290.webp
+    - assets/man/a291.webp
+    - assets/man/a292.webp
+    - assets/man/a293.webp
+    - assets/man/a294.webp
+    - assets/man/a295.webp
+    - assets/man/a296.webp
+    - assets/man/a297.webp
+    - assets/man/a298.webp
+    - assets/man/a299.webp
+    - assets/man/a300.webp
+    - assets/man/a301.webp
+    - assets/man/a302.webp
+    - assets/man/a303.webp
+    - assets/man/a304.webp
+    - assets/man/a305.webp
+    - assets/man/a306.webp
+    - assets/man/a307.webp
+    - assets/man/a308.webp
+    - assets/man/a309.webp
+    - assets/man/a310.webp
+    - assets/man/a311.webp
+    - assets/man/a312.webp
+    - assets/man/a313.webp
+    - assets/man/a314.webp
+    - assets/man/a315.webp
+    - assets/man/a316.webp
+    - assets/man/a317.webp
+    - assets/man/a318.webp
+    - assets/man/a319.webp
+    - assets/man/a320.webp
+    - assets/man/a321.webp
+    - assets/man/a322.webp
+    - assets/man/a323.webp
+    - assets/man/a324.webp
+    - assets/man/a325.webp
+    - assets/man/a326.webp
+    - assets/man/a327.webp
+    - assets/man/a328.webp
+    - assets/man/a329.webp
+    - assets/man/a330.webp
+    - assets/man/a331.webp
+    - assets/man/a332.webp
+    - assets/man/a333.webp
+    - assets/man/a334.webp
+    - assets/man/a335.webp
+    - assets/man/a336.webp
+    - assets/man/a337.webp
+    - assets/man/a338.webp
+    - assets/man/a339.webp
+    - assets/man/a340.webp
+    - assets/man/a341.webp
+    - assets/man/a342.webp
+    - assets/man/a343.webp
+    - assets/man/a344.webp
+    - assets/man/a345.webp
+    - assets/man/a346.webp
+    - assets/man/a347.webp
+    - assets/man/a348.webp
+    - assets/man/a349.webp
+    - assets/man/a350.webp
+    - assets/man/a351.webp
+    - assets/man/a352.webp
+    - assets/man/a353.webp
+    - assets/man/a354.webp
+    - assets/man/a355.webp
+    - assets/man/a356.webp
+    - assets/man/a357.webp
+    - assets/man/a358.webp
+    - assets/man/a359.webp
+    - assets/man/a360.webp
+    - assets/man/a361.webp
+    - assets/man/a362.webp
+    - assets/man/a363.webp
+    - assets/man/a364.webp
+    - assets/man/a366.webp
+    - assets/man/a367.webp
+    - assets/man/a368.webp
+    - assets/man/a369.webp
+    - assets/man/a371.webp
+    - assets/man/a372.webp
+    - assets/man/a373.webp
+    - assets/man/a374.webp
+    - assets/man/a375.webp
+    - assets/man/a376.webp
+    - assets/man/a377.webp
+    - assets/man/a378.webp
+    - assets/man/a379.webp
+    - assets/man/a380.webp
+    - assets/man/a381.webp
+    - assets/man/a382.webp
+    - assets/man/a383.webp
+    - assets/man/a384.webp
+    - assets/man/a385.webp
+    - assets/man/a386.webp
+    - assets/man/a387.webp
+    - assets/man/a388.webp
+    - assets/man/a389.webp
+    - assets/man/a390.webp
+    - assets/man/a391.webp
+    - assets/man/a392.webp
+    - assets/man/a393.webp
+    - assets/man/a394.webp
+    - assets/man/a395.webp
+    - assets/man/a396.webp
+    - assets/man/a397.webp
+    - assets/man/a398.webp
+    - assets/man/a399.webp
+    - assets/man/a400.webp
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
